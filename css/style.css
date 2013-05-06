@@ -1,0 +1,396 @@
+body{
+    background:#EEEEE0;
+    margin:0;
+    padding:0;
+    color:#333333;
+    font-size:12px;
+}
+
+/*HEADER*/
+#header{
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+.imageHeader{
+    background-image: url("../images/newHeader.jpg");
+    width: 931px;
+    height: 113px;
+    background-repeat: no-repeat;
+}
+
+.imgHeader{
+    margin-left: 15px;
+    margin-top: 45px;
+}
+/*FIM HEADER*/
+
+#container, .container{
+    background:none repeat-y scroll top left #FFF;
+    width:930px;
+    min-height: 797px;
+    margin:0 auto;
+    /*height: 100%;*/
+    font-family: Verdana,Geneva,sans-serif;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+/*layout padrão*/
+.fLeft{
+    float: left;
+}
+
+.fRight{
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+.subtitle{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.scroll{
+    width:385px;
+    height:170px;
+    background-color:#F2F2F2;
+    overflow:auto;
+    text-align: left;
+}
+
+/*FIM layout padrão*/
+
+
+#titleChartMap{
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+}
+
+.right-tool-box {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.right-tool-box img{
+    float: right;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.tableVisualizationMenu{
+    margin-bottom: 10px;
+    margin-top: 0;
+    text-align: center;
+    width: 100%; 
+}
+.jqueryslidemenu{
+    list-style: none; 
+   /* border:1px solid #c0c0c0; */ 
+    float:left; 
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+.jqueryslidemenu ul{
+    list-style: none; 
+}
+
+.jqueryslidemenu li{
+    position:relative;
+    background-color: #47627C;
+    float:left;
+    width: 280px;
+  
+/*border-right:1px solid #c0c0c0; */
+}
+.jqueryslidemenu li ul a{
+    color:#6D6D6D; 
+ }
+/*Top level list items*/
+.jqueryslidemenu li a{
+    color:#fff; 
+    font-weight: bold;
+    text-decoration:none; 
+    padding:5px 10px; 
+    display:block;
+    border: 1px solid #FFF;
+}
+/*Top level menu link items style*/
+.jqueryslidemenu li a:hover{
+    background:#233453;
+    color:#fff;
+    -moz-box-shadow:0 3px 10px 0 #000; 
+    -webkit-box-shadow:0 3px 10px 0 #ccc; 
+   
+    /*text-shadow:0px 0px 5px #fff; */
+}
+.jqueryslidemenu li a span.ui-icon-triangle-1-s {
+  float:right;
+  background-image: url("images/ui-icons_ffffff_256x240.png");
+ 
+
+}
+.jqueryslidemenu li ul{ 
+    
+    top:25px; 
+    left:0; 
+   
+    display:none;
+}
+.jqueryslidemenu li:hover ul, .jqueryslidemenu li.over ul {
+    display: block;
+}
+
+.jqueryslidemenu li ul li {
+    display: block;
+    margin-left: -40px;
+    width: 280px;
+    background-color: #E5FAE8;
+    
+}
+
+.jqueryslidemenu li ul li a{
+    padding-right: 26px;
+}
+
+.formXMLWrapper{
+    display: block; 
+    padding: 10px; 
+    margin: 3px; 
+    border-radius: 10px 10px 10px 10px;
+    background-color: #DBECFC;
+    border: 1px solid #DDDDDD
+}
+
+.inputURL{
+    width: 661px;
+}
+
+.submitWrapper{
+    font-size: 12px !important;
+    margin-right: 3px;
+    margin-top: 10px;
+    text-align: right;
+}
+
+.tableEntradaXML td{
+    vertical-align: top;
+}
+
+.textoErro{
+    color: red;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.textInputSelection{
+    color: blue;
+}
+
+.labelTecnica{
+    margin-bottom: 10px;
+    margin-left: 6px;
+    text-align: left;
+}
+
+fieldset.boxTagCloudsJIT {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+#container.containerVispublica{
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+    background: transparent;
+    width: 889px;
+    min-height: 200px;
+}
+
+.demoVisualizationContainer > div{
+    margin: 0 auto;
+}
+
+.boxSeries{
+    background: none repeat scroll 0 0 #FCF6D6;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.headerSeries{
+    padding: 7px;
+    background-color: rgb(110, 153, 121); 
+    color: white; 
+    font-weight: bold;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.bodySeries{
+    padding: 3px;
+}
+
+.bodySeries ul{
+    margin: 0;
+    padding-left: 30px;
+}
+
+.bodySeries li{
+    padding: 2px 0;
+}
+
+.vispublicaIcon{
+    background: url("/vispublica/images/vpicone.png") repeat scroll 0 0 transparent;
+    float: right;
+    display: none;
+    height: 20px;
+    margin-right: 6px;
+    margin-top: -1px;
+    width: 24px;
+}
+
+
+.titleBoxSimulacao {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: -10px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.divLogin{
+    display: none;
+    position: absolute;
+    right: 7px;
+    top: 145px;
+}
+
+.divLogin div{
+    width: 218px;
+    height: 146px;
+    background: none repeat scroll 0 0 white;
+    border: 2px solid #FFAF3A;
+    margin-top: 7px;
+}
+
+.divLogin img{
+    margin-right: 3px;
+    float: right;
+}
+
+.divLogin span{
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.divLogin #pass, .divLogin #login{
+    width: 103px;
+}
+
+.divLogin #bttLogin, .divLogin #bttSenha{
+    margin-top: 5px;
+}
+
+.divLogin div table tr td:first-child{
+    text-align: left;
+    font-weight: bold;
+}
+
+.divLogin table{
+    margin-left: 26px;
+}
+
+.boxErrorStackTrace{
+    display: none;
+}
+
+.headerDashboard{
+    position: relative;
+    padding: 0.4em 1em;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.headerDashboard .ui-dialog-title{
+    margin: 0.1em 16px 0.1em 0px;
+    font-family: Verdana,Geneva,sans-serif;
+    font-weight: normal;
+    font-size: 17px;
+    float: left;
+}
+
+.headerDashboard a{
+    float: right;
+    padding-top: 0px;
+    text-decoration: underline;
+}
+
+.headerDashboard a span{
+    display: block;
+    float: left;
+    margin-top: 3px;
+    margin-right: 4px;
+    color: rgb(255, 255, 255);
+}
+
+.headerDashboard a img{
+    float: right;
+    margin-top:2px;
+}
+
+.headerDashboard .icon{
+    float: left;
+    margin-right: 5px;
+    margin-left: -2px;
+}
+
+.vigenciaWrapper{
+    border: 1px solid #ACADB2;
+    border-radius: 4px 4px 4px 4px;
+    float: left;
+    padding-bottom: 10px;
+    width: 899px;
+
+}
+
+.vigenciaWrapper .headerDashboard.ui-widget-header{
+    background: url("images/ui-bg_glass_90_d2d2d2_1x400.png") repeat-x scroll 50% 50% #D2D2D2;
+    color: black;
+    border: 1px solid #acadb2;
+    margin-bottom: 5px;
+}
+
+.tableOptions{
+    width: 100%;
+}
+
+.tableOptions span{
+    font-size: 12px;
+}
+
+.vigenciaWrapper .headerDashboard .ui-dialog-title{
+    font-size: 14px;
+}
+
+.titulo{
+    font-weight: bold;
+}
+.texto{
+  line-height:1.5em;
+  margin-bottom:0;
+  margin-left:10px;
+  margin-right:10px;
+  text-align:justify;
+}

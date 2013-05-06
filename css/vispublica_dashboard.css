@@ -1,0 +1,242 @@
+/* 
+    Document   : vispublica_dashboard
+    Created on : 24/01/2013, 09:49:17
+    Author     : GUILHERME
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+.containerDashboardVisPublica{
+    background-color: #FFFFFF;
+    border: 1px solid #A9ADBD;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 12px #CCCCCC;
+    height: 715px;
+    margin-left: 10px;
+    padding: 10px;
+    width: 885px;
+}
+
+
+.mapWrapper{
+    width: 350px;
+    height: 340px;
+    float: left;
+    background: #FFF;
+}
+
+.mapWrapper svg{
+    margin-left: 15px;
+    margin-top: -45px;
+}
+
+.mapTitle{
+    background: #FFF;
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Verdana;
+    /*font-size: 34px;*/
+    height: 45px;
+    text-align: center;
+}
+
+.pieWrapper{
+    background: #FFF;
+    color: #3E576F;
+    float: right;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;;
+    font-size: 16px;
+    font-weight: 200;
+    height: 350px;
+    text-align: justify;
+    width: 378px;
+    border: 1px solid #a4b2bf;
+    border-radius: 4px;
+    padding:  5px 5px 10px;
+
+}
+
+.pieWrapper .lengendGroup text{
+    font-size: 14px;
+
+}
+
+.optionsWrapper {
+    float: left;
+    font-family: Verdana;
+    margin-left: -15px;
+}
+
+.optionsWrapper span.titulo {
+    background: none repeat scroll 0 0 #FFF;
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.optionsWrapper div {
+    margin-top: 10px;
+    text-align: left;
+
+}
+
+.optionsWrapper input[type="radio"] {
+    margin: 0;
+}
+
+.optionsWrapper div table {
+    font-size: 12px;
+}
+
+.optionsWrapper div:last-child {
+    margin-top: 10px;
+}
+.optionsWrapper select{
+    width: 113px;
+}
+
+.parametros{
+    padding: 5px 10px;
+}
+
+/***PROVISÓRIO***/
+.lengendGroup{
+    display:none;
+}
+
+.textGroup{
+    display:none;
+}
+
+.columnWrapper{
+    float: left;
+    height: 290px;
+    margin-top: 10px;
+    width: 880px;
+    border: 1px solid #a4b2bf;
+    border-radius: 4px;
+    padding: 1px;
+}
+
+div.bar {
+    display: inline-block;
+    width: 20px;
+    height: 75px; /* Gets overriden by D3-assigned height below */
+    margin-right: 2px;
+    background-color: teal;
+} 
+
+
+.ColumnWrapper {
+    font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.bar {
+    fill: steelblue;
+}
+
+.x.axis path {
+    display: none;
+}
+
+
+/*MAPA*/
+.str0 {
+    cursor: pointer;
+    fill:#A3CFA1;
+    fill-opacity:1;
+    stroke:#333;
+    stroke-opacity:1;
+    stroke-width:300;
+    stroke-miterlimit:4;
+    stroke-dasharray:none;
+}
+
+.str2 {
+    stroke:#1F1A17;stroke-width:281;
+}
+
+.str1 {
+    stroke:#72706F;stroke-width:352;
+}
+
+.str3 {
+    stroke:#1F1A17;stroke-width:704;
+}
+.fil3 {
+    fill:none;
+}/*
+.fil0 {fill:#BFD8FF}
+.fil1 {fill:#F4E2BA}
+.fil2 {fill:#FFF3E3}
+.fil4 {fill:#00FF00}
+.fil5 {fill:#FF9900}
+.fil6 {fill:#Ff0000}
+.fil7 {fill:#00FFFF}
+.fil8 {fill:#FFFF00}*/
+
+.str0:hover{
+    fill:rgb(99,173,95);
+}
+.estadoClicked {
+    fill:rgb(89,143,85);
+}
+.wrapperTitle {
+    color: #3E576F;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;;
+    font-size: 16px;
+    text-align: center;
+}
+
+.modalInfoDashboard{
+    height: 460px;
+    width: 620px;
+    min-height: 0;
+    width: auto;
+}
+
+.tituloInfoDashboard span{
+    display: block;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+#modalInfoDashboard p {
+    text-align: justify;
+}
+
+.creativeCommons {
+    float: left;
+    font-size: 11px;
+    margin-top: 17px;
+    position: absolute;
+    text-align: right;
+    width: 98%;
+}
+
+.footerSobre{
+    position: absolute;
+    text-align: right;
+    width: 200px;
+    font-size: 11px;
+}
+
+.creativeCommons a{
+    width: 685px;
+}
