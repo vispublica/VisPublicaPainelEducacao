@@ -1,7 +1,7 @@
-Painel Educa��o developed in the context of project 
+Painel Educação developed in the context of project 
 VisPublica (Public Data Visualization) through a partnership between 
-the COPPE / UFRJ, the UNIFEI (Federal University of Itajub�) and 
-the Minist�rio do Planejamento Or�amento e Gest�o. 
+the COPPE / UFRJ, the UNIFEI (Federal University of Itajubá) and 
+the Ministério do Planejamento Orçamento e Gestão. 
 
 This program is free software: you can redistribute it and/or modify 
 it under the terms of the GNU Affero General Public License as 
